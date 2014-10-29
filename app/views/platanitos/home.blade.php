@@ -3,13 +3,17 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/semantic.min.js"></script>
+  <script type="text/javascript" src="js/semantic.js"></script>
+  <script type="text/javascript" src="js/menu.js"></script>
+  <script type="text/javascript" src="js/tablesort.js"></script>
+  <script type="text/javascript" src="js/waypoints.js"></script>
 
-  <script src="js/jquery.js"></script>
-  <script src="js/semantic.js"></script>
-  <script src="js/menu.js"></script>
 </head>
 <body>
- <div class="ui pointing menu">
+ <div class="main container">
+ 	<div class="ui pointing menu">
    <a class="active item">
      <i class="home icon"></i> Home
    </a>
@@ -36,5 +40,6 @@
      </div>
    </div>
  </div>
+ 	</div>
 </body>
 </html>
